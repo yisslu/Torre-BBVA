@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C750056C2C4384680095493A /* ModelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C750056B2C4384660095493A /* ModelPickerView.swift */; };
+		C750056F2C4389A00095493A /* services.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C750056D2C4389A00095493A /* services.usdz */; };
+		C75005702C4389A00095493A /* food.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C750056E2C4389A00095493A /* food.usdz */; };
+		C75005722C4389E60095493A /* shopping.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C75005712C4389E60095493A /* shopping.usdz */; };
+		C75005742C438BF90095493A /* PlacementButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75005732C438BF90095493A /* PlacementButtonView.swift */; };
+		C75005762C439A6B0095493A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75005752C439A6B0095493A /* Model.swift */; };
+		C75005792C43A16F0095493A /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = C75005782C43A16F0095493A /* FocusEntity */; };
+		C796EB012C40CBF000B9486A /* trips.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C796EB002C40CBF000B9486A /* trips.usdz */; };
+		C7D2F50A2C39F7BC0097CB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2F5092C39F7BC0097CB3A /* AppDelegate.swift */; };
+		C7D2F50C2C39F7BC0097CB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2F50B2C39F7BC0097CB3A /* ContentView.swift */; };
+		C7D2F50E2C39F7BE0097CB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D2F50D2C39F7BE0097CB3A /* Assets.xcassets */; };
+		C7D2F5112C39F7BE0097CB3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D2F5102C39F7BE0097CB3A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C750056B2C4384660095493A /* ModelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPickerView.swift; sourceTree = "<group>"; };
+		C750056D2C4389A00095493A /* services.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = services.usdz; sourceTree = "<group>"; };
+		C750056E2C4389A00095493A /* food.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = food.usdz; sourceTree = "<group>"; };
+		C75005712C4389E60095493A /* shopping.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = shopping.usdz; sourceTree = "<group>"; };
+		C75005732C438BF90095493A /* PlacementButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtonView.swift; sourceTree = "<group>"; };
+		C75005752C439A6B0095493A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C796EB002C40CBF000B9486A /* trips.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = trips.usdz; sourceTree = "<group>"; };
+		C7D2F5062C39F7BC0097CB3A /* RealityMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealityMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D2F5092C39F7BC0097CB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7D2F50B2C39F7BC0097CB3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7D2F50D2C39F7BE0097CB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7D2F5102C39F7BE0097CB3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7D2F5032C39F7BC0097CB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75005792C43A16F0095493A /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7D2F4FD2C39F7BC0097CB3A = {
+			isa = PBXGroup;
+			children = (
+				C7D2F5082C39F7BC0097CB3A /* RealityMoney */,
+				C7D2F5072C39F7BC0097CB3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7D2F5072C39F7BC0097CB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D2F5062C39F7BC0097CB3A /* RealityMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D2F5082C39F7BC0097CB3A /* RealityMoney */ = {
+			isa = PBXGroup;
+			children = (
+				C7D2F5172C39FC050097CB3A /* Models */,
+				C7D2F5092C39F7BC0097CB3A /* AppDelegate.swift */,
+				C7D2F50B2C39F7BC0097CB3A /* ContentView.swift */,
+				C75005752C439A6B0095493A /* Model.swift */,
+				C750056B2C4384660095493A /* ModelPickerView.swift */,
+				C75005732C438BF90095493A /* PlacementButtonView.swift */,
+				C7D2F50D2C39F7BE0097CB3A /* Assets.xcassets */,
+				C7D2F50F2C39F7BE0097CB3A /* Preview Content */,
+			);
+			path = RealityMoney;
+			sourceTree = "<group>";
+		};
+		C7D2F50F2C39F7BE0097CB3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7D2F5102C39F7BE0097CB3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7D2F5172C39FC050097CB3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C75005712C4389E60095493A /* shopping.usdz */,
+				C750056E2C4389A00095493A /* food.usdz */,
+				C750056D2C4389A00095493A /* services.usdz */,
+				C796EB002C40CBF000B9486A /* trips.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D2F5052C39F7BC0097CB3A /* RealityMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D2F5142C39F7BE0097CB3A /* Build configuration list for PBXNativeTarget "RealityMoney" */;
+			buildPhases = (
+				C7D2F5022C39F7BC0097CB3A /* Sources */,
+				C7D2F5032C39F7BC0097CB3A /* Frameworks */,
+				C7D2F5042C39F7BC0097CB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealityMoney;
+			packageProductDependencies = (
+				C75005782C43A16F0095493A /* FocusEntity */,
+			);
+			productName = RealityMoney;
+			productReference = C7D2F5062C39F7BC0097CB3A /* RealityMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7D2F4FE2C39F7BC0097CB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C7D2F5052C39F7BC0097CB3A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C7D2F5012C39F7BC0097CB3A /* Build configuration list for PBXProject "RealityMoney" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7D2F4FD2C39F7BC0097CB3A;
+			packageReferences = (
+				C75005772C43A16F0095493A /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = C7D2F5072C39F7BC0097CB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D2F5052C39F7BC0097CB3A /* RealityMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7D2F5042C39F7BC0097CB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D2F5112C39F7BE0097CB3A /* Preview Assets.xcassets in Resources */,
+				C75005722C4389E60095493A /* shopping.usdz in Resources */,
+				C75005702C4389A00095493A /* food.usdz in Resources */,
+				C750056F2C4389A00095493A /* services.usdz in Resources */,
+				C7D2F50E2C39F7BE0097CB3A /* Assets.xcassets in Resources */,
+				C796EB012C40CBF000B9486A /* trips.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7D2F5022C39F7BC0097CB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75005762C439A6B0095493A /* Model.swift in Sources */,
+				C75005742C438BF90095493A /* PlacementButtonView.swift in Sources */,
+				C7D2F50C2C39F7BC0097CB3A /* ContentView.swift in Sources */,
+				C7D2F50A2C39F7BC0097CB3A /* AppDelegate.swift in Sources */,
+				C750056C2C4384680095493A /* ModelPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7D2F5122C39F7BE0097CB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7D2F5132C39F7BE0097CB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7D2F5152C39F7BE0097CB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealityMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = JLG64SR427;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesuslugo.RealityMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7D2F5162C39F7BE0097CB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealityMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = JLG64SR427;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesuslugo.RealityMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D2F5012C39F7BC0097CB3A /* Build configuration list for PBXProject "RealityMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D2F5122C39F7BE0097CB3A /* Debug */,
+				C7D2F5132C39F7BE0097CB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D2F5142C39F7BE0097CB3A /* Build configuration list for PBXNativeTarget "RealityMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D2F5152C39F7BE0097CB3A /* Debug */,
+				C7D2F5162C39F7BE0097CB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C75005772C43A16F0095493A /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C75005782C43A16F0095493A /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C75005772C43A16F0095493A /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C7D2F4FE2C39F7BC0097CB3A /* Project object */;
+}
